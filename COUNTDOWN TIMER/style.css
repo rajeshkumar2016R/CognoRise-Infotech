@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(images/pexels-valentin-s-589841.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text h3{
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+.text h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: 4px;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.text-boxes{
+    margin-inline: 10px;
+    margin-block: 10px;
+    padding: 1rem;
+    flex: 1;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.text-boxes p{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 505px){
+    .text h3{
+        font-size: 2rem;
+    }
+    .text h1{
+        font-size: 2rem;
+    }
+}
